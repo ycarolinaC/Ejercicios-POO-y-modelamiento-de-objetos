@@ -32,7 +32,7 @@ public class Vehiculo {
     public void crearVehiculo(){
         System.out.println("Type of vehículo");
         typeVehiculo = solicitarString();
-        System.out.println("Número de pasajeros");
+        System.out.println("Number passengers");
         numberPassenger = solicitarInt();
         System.out.println("Is the crew");
         crew = solicitarString();
